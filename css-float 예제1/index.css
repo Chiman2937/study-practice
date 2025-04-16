@@ -1,0 +1,29 @@
+.div1 {
+  width: 200px;
+  height: 100px;
+  background-color: #d0f7b2;
+  text-align: center;
+}
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: #b2d7f7;
+  text-align: center;
+}
+.div3 {
+  width: 200px;
+  height: 200px;
+  background-color: #e7b2f7;
+  text-align: center;
+}
+.btn1 {
+  height: 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}

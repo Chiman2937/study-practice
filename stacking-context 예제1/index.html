@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <button id="set_zindex" class="btn">div1<br />z-index : 0</button>
+    <button id="reset_zindex" class="btn" disabled>
+      div1<br />z-index : auto
+    </button>
+    <br />
+    <button id="set_opacity" class="btn">div1<br />opacity : 0.8</button>
+    <button id="reset_opacity" class="btn" disabled>
+      div1<br />opacity : auto
+    </button>
+    <hr />
+    <div id="div1">
+      DIV #1<br />
+      position: relative;<br />
+      <div id="div2">
+        DIV #2<br />
+        position: absolute;<br />
+        opacity: 0.8<br />
+        z-index: 2;
+      </div>
+    </div>
+    <div id="div3">
+      DIV #3<br />
+      position: relative;<br />
+      z-index: 1;
+      <div id="div4">
+        DIV #4<br />
+        position: absolute;<br />
+        opacity: 0.8<br />
+        z-index: 10;
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
