@@ -1,0 +1,25 @@
+.normal_div {
+  background-color: #f4ffb3;
+}
+.normal_inline {
+  background-color: #c4ffcb;
+}
+.div1 {
+  background-color: #ffcb96;
+  border: solid 3px blue;
+}
+
+html {
+  border: solid 3px red;
+}
+
+.abs {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  border: solid 3px red;
+}
+
+.btn {
+  width: 150px;
+}
