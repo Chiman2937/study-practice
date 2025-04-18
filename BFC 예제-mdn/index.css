@@ -1,0 +1,12 @@
+html {
+  border: solid 5px red;
+}
+.box {
+  overflow: auto;
+  border: solid 5px red;
+}
+.float {
+  border: solid 5px blue;
+  float: left;
+  height: 100px;
+}
