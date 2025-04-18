@@ -1,0 +1,12 @@
+html {
+  border: solid 3px red;
+}
+
+.div1 {
+  border: solid 3px red;
+}
+
+.float {
+  border: solid 3px green;
+  float: left;
+}

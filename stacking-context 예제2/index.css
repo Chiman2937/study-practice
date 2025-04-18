@@ -1,0 +1,14 @@
+.div {
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+}
+.rel1 {
+  position: relative;
+  top: -20px;
+  background-color: blue;
+}
+.opa1 {
+  opacity: 0.8;
+  background-color: brown;
+}
