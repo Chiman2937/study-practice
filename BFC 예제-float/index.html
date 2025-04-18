@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <span style="color: red">저는 BFC 입니다(&lt;html&gt;)</span><br />
+    <hr />
+    <button id="posOn" class="btn">div1<br />position: absolute</button>
+    <button id="posOff" class="btn" disabled>div1<br />position: static</button>
+    <button id="floatOn" class="btn">div1<br />float: left</button>
+    <button id="floatOff" class="btn" disabled>div1<br />float: none</button>
+    <hr />
+    <div class="div">
+      <div class="div2 float">
+        <span>&ltdiv2&gt</span><br />
+        <span>저는 BFC(float:Left) 입니다</span><br />
+      </div>
+      <span style="display: inline-block; width: 260px">&lt;div1&gt;</span
+      ><br />
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
