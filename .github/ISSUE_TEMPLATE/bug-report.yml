@@ -1,0 +1,35 @@
+name: 🐛 버그 리포트
+description: 버그를 제보할 때 사용하는 템플릿입니다.
+title: "[BUG] "
+labels: [bug]
+assignees: []
+
+body:
+  - type: input
+    id: target-date
+    attributes:
+      label: ⏰ Target 날짜
+      description: yyyy-mm-dd 형식으로 입력해주세요
+      placeholder: "예: 2025-06-01"
+    validations:
+      required: true
+
+  - type: textarea
+    id: task-detail
+    attributes:
+      label: ✨ 작업 내용
+      description: 무엇을 할 작업인지 간단히 작성해주세요
+      placeholder: |
+        - 로그인 오류 수정
+        - 레이아웃 깨짐 수정
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-ui
+    attributes:
+      label: 🔍 관련 화면 or 컴포넌트
+      description: 해당 작업이 적용될 화면이나 컴포넌트가 있다면 작성해주세요
+      placeholder: |
+        - LoginPage
+        - Header.jsx
